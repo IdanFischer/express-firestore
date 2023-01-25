@@ -11,7 +11,7 @@ export async function getAllRestaurants(req, res) {
     res.send(restaurants)
 }
 
-// Rest ID
+// Rest ID for Restaurants
 export async function getRestaurantById(req, res) {
     const db = dbConnect()
     // const restId = req.params.restId
